@@ -1,0 +1,87 @@
+SIMAN Run Controller.
+
+1078.7644 Minutes>
+                                      ARENA Simulation Results
+                                   Edwin Forero - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/29/2023
+Analyst: Edwin Forero                                                Model revision date: 3/29/2023
+
+Replication ended at time      : 28800.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Check for Proper Identification.TotalCostP  .17554      8.3571E-4 .07534     .29859      14318    
+Check for Proper Identification.TotalTimeP  1.2393     (Corr)     .37668     7.0373      14318    
+Check for Proper Identification.WaitTimePe  .36164     .02463     .00000     6.0019      14318    
+Check for Proper Identification.WaitCostPe  .00000     .00000     .00000     .00000      14318    
+Check for Proper Identification.VACostPerE  .17554      8.3571E-4 .07534     .29859      14318    
+Check for Proper Identification.VATimePerE  .87770     .00418     .37668     1.4929      14318    
+Passengers.VATime                           .87770     .00418     .37668     1.4929      14318    
+Passengers.NVATime                          .00000     .00000     .00000     .00000      14318    
+Passengers.WaitTime                         .36164     .02463     .00000     6.0019      14318    
+Passengers.TranTime                         .00000     .00000     .00000     .00000      14318    
+Passengers.OtherTime                        .00000     .00000     .00000     .00000      14318    
+Passengers.TotalTime                        1.2393     (Corr)     .37668     7.0373      14318    
+Passengers.VACost                           .17554      8.3571E-4 .07534     .29859      14318    
+Passengers.NVACost                          .00000     .00000     .00000     .00000      14318    
+Passengers.WaitCost                         .00000     .00000     .00000     .00000      14318    
+Passengers.TranCost                         .00000     .00000     .00000     .00000      14318    
+Passengers.OtherCost                        .00000     .00000     .00000     .00000      14318    
+Passengers.TotalCost                        .17554      8.3571E-4 .07534     .29859      14318    
+Check for Proper Identification.Queue.Wait  .36164     .02463     .00000     6.0019      14318    
+Check for Proper Identification.Queue.Wait  .00000     .00000     .00000     .00000      14318    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passengers.WIP                              .61614     (Corr)     .00000     8.0000     .00000    
+Transport Security Office.NumberBusy        .43635     .00843     .00000     1.0000     .00000    
+Transport Security Office.NumberScheduled   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transport Security Office.Utilization       .43635     .00843     .00000     1.0000     .00000    
+Check for Proper Identification.Queue.Numb  .17979     (Corr)     .00000     7.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Check for Proper Identification Accum VA C  2513.3    
+Check for Proper Identification Accum VA T  12566.    
+Check for Proper Identification Number Out  14318.    
+Check for Proper Identification Total Accu  2513.3    
+Check for Proper Identification Accum Wait  5177.9    
+Check for Proper Identification Accum Wait  .00000    
+Check for Proper Identification Number In   14318.    
+Check for Proper Identification Total Accu  17744.    
+Passengers.NumberIn                         14318.    
+Passengers.NumberOut                        14318.    
+Transport Security Office.NumberSeized      14318.    
+Transport Security Office.ScheduledUtiliza  .43635    
+Transport Security Office.BusyCost          2513.3    
+Transport Security Office.IdleCost          3246.6    
+Transport Security Office.UsageCost         .00000    
+All Entities.VACost                         2513.3    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      2513.3    
+All Resources.BusyCost                      2513.3    
+All Resources.IdleCost                      3246.6    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     5760.0    
+System.TotalCost                            5760.0    
+System.NumberOut                            14318.    
+
+
+Simulation run time: 0.28 minutes.
+Simulation run complete.

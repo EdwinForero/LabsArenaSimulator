@@ -1,0 +1,87 @@
+
+                                      ARENA Simulation Results
+                                   Edwin Forero - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: ParcialFinal                                                Run execution date : 5/31/2023
+Analyst: Edwin Forero                                                Model revision date: 5/31/2023
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Clientes que se fueron                      1.0000     (Insuf)    1.0000     1.0000         35    
+TiempoTotal                                     --         --         --         --          0
+Cliente.VATime                              .00000     (Insuf)    .00000     .00000         35    
+Cliente.NVATime                             .00000     (Insuf)    .00000     .00000         35    
+Cliente.WaitTime                            .00000     (Insuf)    .00000     .00000         35    
+Cliente.TranTime                            .00000     (Insuf)    .00000     .00000         35    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000         35    
+Cliente.TotalTime                           .00000     (Insuf)    .00000     .00000         35    
+Pagar.Queue.WaitingTime                         --         --         --         --          0
+Juntar pedido y cliente.Queue1.WaitingTime      --         --         --         --          0
+Juntar pedido y cliente.Queue2.WaitingTime      --         --         --         --          0
+Pedido.Queue.WaitingTime                        --         --         --         --          0
+FilaRestaurante.WaitingTime                     --         --         --         --          0
+Comer.Queue.WaitingTime                         --         --         --         --          0
+Cocina.Queue.WaitingTime                        --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 38.817     (Insuf)    .00000     86.000     86.000    
+Cocinero.NumberBusy                         .00000     (Insuf)    .00000     .00000     .00000    
+Cocinero.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Cocinero.Utilization                        .00000     (Insuf)    .00000     .00000     .00000    
+Cajero.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Cajero.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cajero.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Mesero.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Mesero.NumberScheduled                      3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Mesero.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Mesas.NumberBusy                            .00000     (Insuf)    .00000     .00000     .00000    
+Mesas.NumberScheduled                       30.000     (Insuf)    30.000     30.000     30.000    
+Mesas.Utilization                           .00000     (Insuf)    .00000     .00000     .00000    
+Pagar.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+Juntar pedido y cliente.Queue1.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Juntar pedido y cliente.Queue2.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Pedido.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+FilaRestaurante.NumberInQueue               38.817     (Insuf)    .00000     86.000     86.000    
+Comer.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+Cocina.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Clientes Atendidos                                0  Infinite
+Clientes Llegan                                 121  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            121.00    
+Cliente.NumberOut                           35.000    
+Cocinero.NumberSeized                       .00000    
+Cocinero.ScheduledUtilization               .00000    
+Cajero.NumberSeized                         .00000    
+Cajero.ScheduledUtilization                 .00000    
+Mesero.NumberSeized                         .00000    
+Mesero.ScheduledUtilization                 .00000    
+Mesas.NumberSeized                          .00000    
+Mesas.ScheduledUtilization                  .00000    
+System.NumberOut                            35.000    
+
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.

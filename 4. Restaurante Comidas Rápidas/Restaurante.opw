@@ -1,0 +1,20 @@
+[RESOURCES]
+Cocinero
+Cajero
+[VARIABLES]
+Legada de Clientes.NumberOut
+Caja.VACost
+Cocina.VATime
+Caja.VATime
+Cocina.NumberOut
+Cocina.VACost
+Cocina.NumberIn
+Caja.WaitCost
+Cocina.WaitCost
+Caja.WaitTime
+Caja.NumberOut
+Caja.NumberIn
+Cocina.WaitTime
+Pedido_Cliente.NumberOut Dup
+Salida.NumberOut
+Pedido_Cliente.NumberOut Orig

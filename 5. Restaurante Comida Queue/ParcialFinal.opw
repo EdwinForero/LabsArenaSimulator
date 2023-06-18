@@ -1,0 +1,20 @@
+[RESOURCES]
+Cocinero
+Cajero
+Mesero
+Mesas
+[VARIABLES]
+Pagar.NumberIn
+Pagar.NumberOut
+Comer.NumberOut
+Llegada de Clientes.NumberOut
+Cocina.NumberOut
+Cocina.NumberIn
+Pedido.NumberIn
+Pedido.NumberOut
+Max Cola.NumberOut False
+Max Cola.NumberOut True
+Pedido_Cliente.NumberOut Dup
+Salida.NumberOut
+Pedido_Cliente.NumberOut Orig
+Comer.NumberIn

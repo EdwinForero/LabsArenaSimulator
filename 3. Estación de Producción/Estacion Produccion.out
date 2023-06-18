@@ -1,0 +1,140 @@
+
+                                      ARENA Simulation Results
+                                   Edwin Forero - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/ 3/2023
+Analyst: Edwin Forero                                                Model revision date: 5/ 3/2023
+
+Replication ended at time      : 9.6893592 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+LlenadoPro.TotalCostPerEntity               .00000     (Insuf)    .00000     .00000        174    
+TapadoPro.WaitCostPerEntity                 .00000     (Insuf)    .00000     .00000        174    
+Llegada.TotalTimePerEntity                  4.0405     (Insuf)    .04596     8.0082        174    
+Flow Time                                   4.1783     (Insuf)    .16053     8.1342        174    
+TapadoPro.VATimePerEntity                   .05000     (Insuf)    .05000     .05000        174    
+TapadoPro.WaitTimePerEntity                 .01689     (Insuf)    .00000     .11211        174    
+LlenadoPro.TotalTimePerEntity               .07090     (Insuf)    .02108     .15003        174    
+Llegada.VATimePerEntity                     .05496     (Insuf)    .02518     .08318        174    
+LlenadoPro.VACostPerEntity                  .00000     (Insuf)    .00000     .00000        174    
+Total in                                    1.0000     (Insuf)    1.0000     1.0000        174    
+Llegada.VACostPerEntity                     .00000     (Insuf)    .00000     .00000        174    
+LlenadoPro.WaitTimePerEntity                .02253     (Insuf)    .00000     .10596        174    
+Llegada.TotalCostPerEntity                  .00000     (Insuf)    .00000     .00000        174    
+Totales                                     1.0000     (Insuf)    1.0000     1.0000        174    
+LlenadoPro.VATimePerEntity                  .04837     (Insuf)    .01844     .08161        174    
+Llegada.WaitTimePerEntity                   3.9856     (Insuf)    .00000     7.9513        174    
+LleganA                                     1.0000     (Insuf)    1.0000     1.0000        174    
+LleganB                                     1.0000     (Insuf)    1.0000     1.0000        174    
+Llegada.WaitCostPerEntity                   .00000     (Insuf)    .00000     .00000        174    
+TapadoPro.TotalCostPerEntity                .00000     (Insuf)    .00000     .00000        174    
+LlenadoPro.WaitCostPerEntity                .00000     (Insuf)    .00000     .00000        174    
+TapadoPro.VACostPerEntity                   .00000     (Insuf)    .00000     .00000        174    
+TapadoPro.TotalTimePerEntity                .06689     (Insuf)    .05000     .16211        174    
+Jobs.VATime                                 .15333     (Insuf)    .09745     .20888        174    
+Jobs.NVATime                                .00000     (Insuf)    .00000     .00000        174    
+Jobs.WaitTime                               4.0250     (Insuf)    .00000     8.0026        174    
+Jobs.TranTime                               .00000     (Insuf)    .00000     .00000        174    
+Jobs.OtherTime                              .00000     (Insuf)    .00000     .00000        174    
+Jobs.TotalTime                              4.1783     (Insuf)    .16053     8.1342        174    
+Jobs.VACost                                 .00000     (Insuf)    .00000     .00000        174    
+Jobs.NVACost                                .00000     (Insuf)    .00000     .00000        174    
+Jobs.WaitCost                               .00000     (Insuf)    .00000     .00000        174    
+Jobs.TranCost                               .00000     (Insuf)    .00000     .00000        174    
+Jobs.OtherCost                              .00000     (Insuf)    .00000     .00000        174    
+Jobs.TotalCost                              .00000     (Insuf)    .00000     .00000        174    
+LlenadoPro.Queue.WaitingTime                .02253     (Insuf)    .00000     .10596        174    
+LlenadoPro.Queue.WaitingCost                .00000     (Insuf)    .00000     .00000        174    
+Llegada.Queue.WaitingTime                   3.9856     (Insuf)    .00000     7.9513        174    
+Llegada.Queue.WaitingCost                   .00000     (Insuf)    .00000     .00000        174    
+TapadoPro.Queue.WaitingTime                 .01689     (Insuf)    .00000     .11211        174    
+TapadoPro.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        174    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Jobs.WIP                                    75.034     (Corr)     .00000     148.00     .00000    
+Llegar.NumberBusy                           .98699     (Insuf)    .00000     1.0000     .00000    
+Llegar.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Llegar.Utilization                          .98699     (Insuf)    .00000     1.0000     .00000    
+Tapar.NumberBusy                            .89789     (Insuf)    .00000     1.0000     .00000    
+Tapar.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tapar.Utilization                           .89789     (Insuf)    .00000     1.0000     .00000    
+Llenar.NumberBusy                           .86860     (Insuf)    .00000     1.0000     .00000    
+Llenar.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Llenar.Utilization                          .86860     (Insuf)    .00000     1.0000     .00000    
+LlenadoPro.Queue.NumberInQueue              .40467     (Insuf)    .00000     3.0000     .00000    
+Llegada.Queue.NumberInQueue                 71.572     (Corr)     .00000     144.00     .00000    
+TapadoPro.Queue.NumberInQueue               .30335     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TapadoPro Accum VA Time                     8.7000    
+TapadoPro Number In                         174.00    
+TapadoPro Accum VA Cost                     .00000    
+TapadoPro Number Out                        174.00    
+Llegada Accum Wait Time                     693.49    
+Llegada Accum Wait Cost                     .00000    
+Llegada Number Out                          174.00    
+Llegada Accum VA Time                       9.5633    
+Llegada Total Accum Cost                    .00000    
+LlenadoPro Number Out                       174.00    
+TapadoPro Accum Wait Time                   2.9393    
+TapadoPro Total Accum Time                  11.639    
+LlenadoPro Accum Wait Cost                  .00000    
+Llegada Total Accum Time                    703.05    
+Llegada Number In                           174.00    
+LlenadoPro Total Accum Time                 12.337    
+TapadoPro Total Accum Cost                  .00000    
+LlenadoPro Accum VA Time                    8.4162    
+LlenadoPro Accum Wait Time                  3.9210    
+LlenadoPro Accum VA Cost                    .00000    
+TapadoPro Accum Wait Cost                   .00000    
+Llegada Accum VA Cost                       .00000    
+LlenadoPro Number In                        174.00    
+LlenadoPro Total Accum Cost                 .00000    
+Jobs.NumberIn                               174.00    
+Jobs.NumberOut                              174.00    
+Llegar.NumberSeized                         174.00    
+Llegar.ScheduledUtilization                 .98699    
+Llegar.BusyCost                             .00000    
+Llegar.IdleCost                             .00000    
+Llegar.UsageCost                            .00000    
+Tapar.NumberSeized                          174.00    
+Tapar.ScheduledUtilization                  .89789    
+Tapar.BusyCost                              .00000    
+Tapar.IdleCost                              .00000    
+Tapar.UsageCost                             .00000    
+Llenar.NumberSeized                         174.00    
+Llenar.ScheduledUtilization                 .86860    
+Llenar.BusyCost                             .00000    
+Llenar.IdleCost                             .00000    
+Llenar.UsageCost                            .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            174.00    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

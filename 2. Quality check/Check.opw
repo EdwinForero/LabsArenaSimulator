@@ -1,0 +1,12 @@
+[RESOURCES]
+Painter
+Assembler
+[VARIABLES]
+Quality Check.NumberOut True
+Painting.NumberOut
+Painting.NumberIn
+Quality Check.NumberOut False
+Assembly.NumberOut
+Assembly.NumberIn
+Job Arrivals.NumberOut
+Completed.NumberOut

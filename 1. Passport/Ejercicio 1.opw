@@ -1,0 +1,14 @@
+[RESOURCES]
+Transport Security Office
+[VARIABLES]
+Passengers Arrive to Security.NumberOut
+Check for Proper Identification.VACost
+Check for Proper Identification.VATime
+Check for Proper Identification.NumberOut
+Pass Security?.NumberOut True
+Check for Proper Identification.WaitTime
+Check for Proper Identification.WaitCost
+Check for Proper Identification.NumberIn
+Pass Security?.NumberOut False
+Cleared.NumberOut
+Denied.NumberOut

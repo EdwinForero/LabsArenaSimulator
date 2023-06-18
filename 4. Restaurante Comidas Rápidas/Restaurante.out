@@ -1,0 +1,125 @@
+
+                                      ARENA Simulation Results
+                                   Edwin Forero - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Ejemplo Comida Rapida                                       Run execution date : 5/24/2023
+Analyst: Edwin Forero                                                Model revision date: 5/24/2023
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cocina.TotalCostPerEntity                   .00000     (Insuf)    .00000     .00000        115    
+Cocina.WaitTimePerEntity                    2.6698     (Insuf)    .00000     8.0146        115    
+Caja.VACostPerEntity                        .00000     (Insuf)    .00000     .00000        121    
+Cocina.VATimePerEntity                      1.9241     (Insuf)    1.4096     2.4897        115    
+Caja.WaitCostPerEntity                      .00000     (Insuf)    .00000     .00000        121    
+Caja.VATimePerEntity                        1.5398     (Insuf)    1.0340     2.1004        121    
+Caja.WaitTimePerEntity                      1.0275     (Insuf)    .00000     4.2032        121    
+Cocina.WaitCostPerEntity                    .00000     (Insuf)    .00000     .00000        115    
+Cocina.TotalTimePerEntity                   4.5940     (Insuf)    1.5170     9.7263        115    
+Caja.TotalCostPerEntity                     .00000     (Insuf)    .00000     .00000        121    
+Tiempo de Ciclo                             7.1215     (Insuf)    2.9476     13.004        115    
+Cocina.VACostPerEntity                      .00000     (Insuf)    .00000     .00000        115    
+Caja.TotalTimePerEntity                     2.5674     (Insuf)    1.0802     5.8418        121    
+Cliente.VATime                              3.4666     (Insuf)    2.7670     4.2827        115    
+Cliente.NVATime                             .00000     (Insuf)    .00000     .00000        115    
+Cliente.WaitTime                            8.2488     (Insuf)    1.5170     18.197        115    
+Cliente.TranTime                            .00000     (Insuf)    .00000     .00000        115    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000        115    
+Cliente.TotalTime                           7.1215     (Insuf)    2.9476     13.004        115    
+Cliente.VACost                              .00000     (Insuf)    .00000     .00000        115    
+Cliente.NVACost                             .00000     (Insuf)    .00000     .00000        115    
+Cliente.WaitCost                            .00000     (Insuf)    .00000     .00000        115    
+Cliente.TranCost                            .00000     (Insuf)    .00000     .00000        115    
+Cliente.OtherCost                           .00000     (Insuf)    .00000     .00000        115    
+Cliente.TotalCost                           .00000     (Insuf)    .00000     .00000        115    
+Caja.Queue.WaitingTime                      1.0544     (Insuf)    .00000     4.2032        123    
+Caja.Queue.WaitingCost                      .00000     (Insuf)    .00000     .00000        123    
+Juntar Pedido y Cliente.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000        115    
+Juntar Pedido y Cliente.Queue1.WaitingCost  .00000     (Insuf)    .00000     .00000        115    
+Juntar Pedido y Cliente.Queue2.WaitingTime  4.5940     (Insuf)    1.5170     9.7263        115    
+Juntar Pedido y Cliente.Queue2.WaitingCost  .00000     (Insuf)    .00000     .00000        115    
+Cocina.Queue.WaitingTime                    2.6582     (Insuf)    .00000     8.0146        117    
+Cocina.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000        117    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 11.748     (Corr)     .00000     25.000     20.000    
+Cocinero.NumberBusy                         1.8690     (Insuf)    .00000     2.0000     2.0000    
+Cocinero.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Cocinero.Utilization                        .93454     (Insuf)    .00000     1.0000     1.0000    
+Cajero.NumberBusy                           1.5636     (Insuf)    .00000     2.0000     2.0000    
+Cajero.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Cajero.Utilization                          .78183     (Insuf)    .00000     1.0000     1.0000    
+Caja.Queue.NumberInQueue                    1.1697     (Insuf)    .00000     8.0000     6.0000    
+Juntar Pedido y Cliente.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Pedido y Cliente.Queue2.NumberInQue  4.5074     (Insuf)    .00000     11.000     6.0000    
+Cocina.Queue.NumberInQueue                  2.6383     (Insuf)    .00000     9.0000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Clientes Atendidos                              115  Infinite
+Clientes que Ingresan                           129  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Caja Accum VA Cost                          .00000    
+Cocina Accum VA Time                        221.28    
+Caja Accum VA Time                          186.32    
+Cocina Number Out                           115.00    
+Cocina Accum VA Cost                        .00000    
+Cocina Number In                            121.00    
+Caja Accum Wait Cost                        .00000    
+Cocina Accum Wait Cost                      .00000    
+Caja Accum Wait Time                        124.33    
+Caja Total Accum Cost                       .00000    
+Caja Number Out                             121.00    
+Caja Number In                              129.00    
+Cocina Accum Wait Time                      307.02    
+Cocina Total Accum Time                     528.31    
+Caja Total Accum Time                       310.66    
+Cocina Total Accum Cost                     .00000    
+Cliente.NumberIn                            365.00    
+Cliente.NumberOut                           345.00    
+Cocinero.NumberSeized                       117.00    
+Cocinero.ScheduledUtilization               .93454    
+Cocinero.BusyCost                           .00000    
+Cocinero.IdleCost                           .00000    
+Cocinero.UsageCost                          .00000    
+Cajero.NumberSeized                         123.00    
+Cajero.ScheduledUtilization                 .78183    
+Cajero.BusyCost                             .00000    
+Cajero.IdleCost                             .00000    
+Cajero.UsageCost                            .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            115.00    
+
+
+Simulation run time: 0.13 minutes.
+Simulation run complete.
